@@ -12,6 +12,8 @@ Clases que deben contener:
 ```
 git clone https://github.com/chuano/php-interfaces-traits.git
 
+cd php-interfaces-traits
+
 composer install
 
 ./vendor/bin/phpunit
