@@ -10,6 +10,11 @@ trait SumableTrait
      */
     protected $total;
 
+    /**
+     * Suma el valor de todas las propiedades que no sean "total"
+     *
+     * @return void
+     */
     public function sumaTodasPropiedades()
     {
         $this->total = 0;
