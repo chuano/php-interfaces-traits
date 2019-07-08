@@ -1,0 +1,21 @@
+{
+    "name": "chuano/php-interfaces-traits",
+    "description": "Ejemplo de interfaces y traits",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Chuano",
+            "email": "chuano@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "phpunit/phpunit": "^8.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chuano\\": "src/"
+        }
+    }
+}
